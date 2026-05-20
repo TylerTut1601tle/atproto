@@ -194,16 +194,16 @@ export interface AccountStore {
 }
 
 export const isAccountStore = buildInterfaceChecker<AccountStore>([
-  'createAccount',
   'authenticateAccount',
-  'setAuthorizedClient',
+  'createAccount',
   'getAccount',
-  'upsertDeviceAccount',
   'getDeviceAccount',
-  'removeDeviceAccount',
   'listDeviceAccounts',
-  'resetPasswordRequest',
+  'removeDeviceAccount',
   'resetPasswordConfirm',
+  'resetPasswordRequest',
+  'setAuthorizedClient',
+  'upsertDeviceAccount',
   'verifyHandleAvailability',
 ])
 

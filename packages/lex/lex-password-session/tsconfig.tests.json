@@ -3,7 +3,6 @@
   "include": ["./tests", "./src/**/*.test.ts"],
   "compilerOptions": {
     "noImplicitAny": true,
-    "rootDir": "./",
-    "baseUrl": "./"
+    "rootDir": "./"
   }
 }

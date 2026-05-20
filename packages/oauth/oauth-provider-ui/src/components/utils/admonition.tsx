@@ -1,6 +1,6 @@
 import {
   CheckCircleIcon,
-  type Icon,
+  type Icon as PhosphorIcon,
   InfoIcon,
   ProhibitIcon,
   WarningIcon,
@@ -29,7 +29,7 @@ const roleToVariant = (role?: AriaRole): Variant => {
   return (ROLE_VARIANT_MAP as ReadonlyMap<unknown, Variant>).get(role) ?? 'info'
 }
 
-const icons: Record<Variant, Icon> = {
+const icons: Record<Variant, PhosphorIcon> = {
   // @ts-expect-error
   __proto__: null,
 
