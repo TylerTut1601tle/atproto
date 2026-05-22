@@ -1,5 +1,14 @@
 # @atproto/bsky
 
+## 0.0.235
+
+### Patch Changes
+
+- [#5001](https://github.com/bluesky-social/atproto/pull/5001) [`92ed125`](https://github.com/bluesky-social/atproto/commit/92ed125c27178bec1cb737ec15307334170768b7) Thanks [@estrattonbailey](https://github.com/estrattonbailey)! - Ensure `associatedProfiles` is returned for Standard Site external embed views
+
+- Updated dependencies [[`126ac1e`](https://github.com/bluesky-social/atproto/commit/126ac1ead8c44065e3fa7c02efba7bd20551ee99)]:
+  - @atproto/api@0.20.6
+
 ## 0.0.234
 
 ### Patch Changes
